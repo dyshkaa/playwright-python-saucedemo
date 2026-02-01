@@ -7,7 +7,9 @@ from pages.cart_page import CartPage
 from pages.checkout_page import CheckoutPage
 
 @pytest.mark.parametrize("item_name_param", ["Sauce Labs Fleece Jacket", "Sauce Labs Backpack", "Sauce Labs Onesie"])
-def test_buy_any_item (page, login_page, do_login, item_name_param):
+def test_buy_any_item (page, item_name_param, fake):
+    page.goto("/inventory.html")
+    
     inventory_page = InventoryPage()
     cart_page = CartPage()
     inventory_page.add_item_to_cart(page, item_name_param)
@@ -18,7 +20,11 @@ def test_buy_any_item (page, login_page, do_login, item_name_param):
     cart_page.press_checkout_btn(page)
 
     checkout_page = CheckoutPage()
-    checkout_page.fill_information("First", "Last", "12345", page)
+    random_first_name = fake.first_name()
+    random_last_name = fake.last_name()
+    random_zip = fake.zipcode()
+
+    checkout_page.fill_information(random_first_name, random_last_name, random_zip, page)
     checkout_page.press_cont_btn(page)
     expect(page.locator(checkout_page.title_overview)).to_have_text("Checkout: Overview")
     expect(page.locator(checkout_page.item_name_overview)).to_have_text(item_name_param)

@@ -11,9 +11,10 @@ report.html
 .pytest_cache/
 assets/
 
-# Environment variables (Пароли)
+# Environment variables (Credentials & Tokens)
 .env
 .env.local
+state.json
 
 # IDE settings
 .idea/
