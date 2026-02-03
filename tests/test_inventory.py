@@ -31,5 +31,13 @@ def test_buy_any_item (page, item_name_param, fake):
     
     checkout_page.press_finish_btn(page)
     expect(page.locator(checkout_page.title_final)).to_have_text("Thank you for your order!")
-    
+
+def test_broken_images(page):
+    page.route("**/*.{png,jpg,jpeg}", lambda route: route.abort())
+
+    inventory_page = InventoryPage()
+    inventory_page.navigate(page)
+
+    image_width = page.locator(inventory_page.item_image).first.evaluate("el => el.naturalWidth")
+    assert image_width == 0
 

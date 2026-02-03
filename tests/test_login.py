@@ -8,6 +8,7 @@ def browser_context_args(base_url):
     return {
         "base_url": base_url,
     }
+
 def test_guest_can_login(page, login_page):
     login_page.navigate(page)
 
