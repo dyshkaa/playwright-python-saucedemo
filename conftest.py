@@ -1,33 +1,37 @@
+import asyncio
 import pytest
 import os
 import base64
-
+import allure
 from faker import Faker
 from playwright.sync_api import BrowserType
-
 from pages.login_page import LoginPage
 
+from dotenv import load_dotenv
+load_dotenv()
+
+##allure
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
-    pytest_html = item.config.pluginmanager.getplugin("html")
     outcome = yield
     report = outcome.get_result()
-    extra = getattr(report, "extra", [])
-
+    
     if report.when == "call" and report.failed:
         page = item.funcargs.get("page")
         if page:
-            screenshot_bytes = page.screenshot()
-            image = base64.b64encode(screenshot_bytes).decode("utf-8")
-            extra.append(pytest_html.extras.html(f'<div style="margin: 10px;"><img src="data:image/png;base64,{image}" style="width:600px; border:1px solid red;" align="right"/></div>'))
-    
-    report.extra = extra
+            allure.attach(
+                page.screenshot(),
+                name="screenshot_on_failure",
+                attachment_type=allure.attachment_type.PNG
+            )
 
+##faker
 @pytest.fixture
 def fake():
     faker = Faker()
     return faker
 
+##login
 @pytest.fixture
 def login_page (page):
     return LoginPage()

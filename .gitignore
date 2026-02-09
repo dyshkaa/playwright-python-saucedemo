@@ -1,21 +1,30 @@
-# Python
+# --- PYTHON ---
 __pycache__/
-*.py[cod]
-venv/
+*.pyc
 .venv/
+venv/
 env/
 
-# Playwright & Reports
-test-results/
-report.html
-.pytest_cache/
-assets/
-
-# Environment variables (Credentials & Tokens)
-.env
-.env.local
-state.json
-
-# IDE settings
+# --- IDE ---
 .idea/
 .vscode/
+
+# --- PLAYWRIGHT & PYTEST ---
+.pytest_cache/
+test-results/
+
+# --- REPORTS ---
+allure-results/
+allure-report/
+report.html
+assets/
+
+# --- JAVASCRIPT TRASH ---
+node_modules/
+package.json
+package-lock.json
+
+# --- SECRETS ---
+state.json
+.env
+.env.local

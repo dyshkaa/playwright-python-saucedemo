@@ -3,6 +3,10 @@ import os
 
 from playwright.sync_api import expect
 
+from utils.logger import setup_logger
+
+logger = setup_logger()
+
 @pytest.fixture
 def browser_context_args(base_url):
     return {
