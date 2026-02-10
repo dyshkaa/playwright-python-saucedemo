@@ -1,172 +1,219 @@
-[2026-02-05 00:45:30] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
-[2026-02-05 00:45:30] [INFO] Images are mocked
-[2026-02-05 00:45:31] [INFO] Inventory page is opened
-[2026-02-05 00:45:31] [INFO] Images are Mocked
-[2026-02-05 00:45:31] [INFO] Test for broken images is passed
-[2026-02-05 00:45:31] [INFO] Test Executed: Sauce Labs Fleece Jacket buying
-[2026-02-05 00:45:32] [INFO] Inventory page is opened
-[2026-02-05 00:45:32] [INFO] Sauce Labs Fleece Jacket is added to cart
-[2026-02-05 00:45:32] [INFO] Cart page is opened
-[2026-02-05 00:45:32] [INFO] Proceed to order page is opened
-[2026-02-05 00:45:32] [INFO] Data for fields is generated
-[2026-02-05 00:45:32] [INFO] First Name: Julie, Last Name: Taylor, Zip: 35253
-[2026-02-05 00:45:32] [INFO] Form for order is filled
-[2026-02-05 00:45:32] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-05 00:45:32] [INFO] Order is submitted succesfully
-[2026-02-05 00:45:32] [INFO] Test Sauce Labs Fleece Jacket buing is passed
-[2026-02-05 00:45:32] [INFO] Test Executed: Sauce Labs Onesie buying
-[2026-02-05 00:45:33] [INFO] Test Executed: Sauce Labs Backpack buying
-[2026-02-05 00:45:33] [INFO] Inventory page is opened
-[2026-02-05 00:45:33] [INFO] Sauce Labs Onesie is added to cart
-[2026-02-05 00:45:33] [INFO] Cart page is opened
-[2026-02-05 00:45:33] [INFO] Proceed to order page is opened
-[2026-02-05 00:45:33] [INFO] Data for fields is generated
-[2026-02-05 00:45:33] [INFO] First Name: Crystal, Last Name: Aguilar, Zip: 76254
-[2026-02-05 00:45:33] [INFO] Form for order is filled
-[2026-02-05 00:45:33] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-05 00:45:33] [INFO] Order is submitted succesfully
-[2026-02-05 00:45:33] [INFO] Test Sauce Labs Onesie buing is passed
-[2026-02-05 00:45:33] [INFO] Inventory page is opened
-[2026-02-05 00:45:33] [INFO] Sauce Labs Backpack is added to cart
-[2026-02-05 00:45:33] [INFO] Cart page is opened
-[2026-02-05 00:45:34] [INFO] Proceed to order page is opened
-[2026-02-05 00:45:34] [INFO] Data for fields is generated
-[2026-02-05 00:45:34] [INFO] First Name: Steven, Last Name: Thomas, Zip: 72420
-[2026-02-05 00:45:34] [INFO] Form for order is filled
-[2026-02-05 00:45:34] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-05 00:45:34] [INFO] Order is submitted succesfully
-[2026-02-05 00:45:34] [INFO] Test Sauce Labs Backpack buing is passed
-[2026-02-05 01:11:58] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
-[2026-02-05 01:11:58] [INFO] Images are mocked
-[2026-02-05 01:11:58] [INFO] Inventory page is opened
-[2026-02-05 01:11:58] [INFO] Images are Mocked
-[2026-02-05 01:11:58] [INFO] Test for broken images is passed
-[2026-02-05 01:11:58] [INFO] Test Executed: Sauce Labs Backpack buying
-[2026-02-05 01:11:59] [INFO] Inventory page is opened
-[2026-02-05 01:11:59] [INFO] Sauce Labs Backpack is added to cart
-[2026-02-05 01:11:59] [INFO] Cart page is opened
-[2026-02-05 01:11:59] [INFO] Proceed to order page is opened
-[2026-02-05 01:11:59] [INFO] Data for fields is generated
-[2026-02-05 01:11:59] [INFO] First Name: Leah, Last Name: Bates, Zip: 95717
-[2026-02-05 01:11:59] [INFO] Form for order is filled
-[2026-02-05 01:11:59] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-05 01:11:59] [INFO] Order is submitted succesfully
-[2026-02-05 01:11:59] [INFO] Test Sauce Labs Backpack buing is passed
-[2026-02-05 01:12:00] [INFO] Test Executed: Sauce Labs Bike Light buying
-[2026-02-05 01:12:00] [INFO] Inventory page is opened
-[2026-02-05 01:12:00] [INFO] Sauce Labs Bike Light is added to cart
-[2026-02-05 01:12:01] [INFO] Cart page is opened
-[2026-02-05 01:12:01] [INFO] Proceed to order page is opened
-[2026-02-05 01:12:01] [INFO] Data for fields is generated
-[2026-02-05 01:12:01] [INFO] First Name: Michelle, Last Name: Cruz, Zip: 48153
-[2026-02-05 01:12:01] [INFO] Form for order is filled
-[2026-02-05 01:12:01] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-05 01:12:01] [INFO] Order is submitted succesfully
-[2026-02-05 01:12:01] [INFO] Test Sauce Labs Bike Light buing is passed
-[2026-02-05 10:34:48] [INFO] Visual test started: Login Page
-[2026-02-05 10:35:11] [INFO] Visual test started: Login Page
-[2026-02-05 10:38:25] [INFO] Visual test started: Login Page
-[2026-02-05 10:38:30] [INFO] Visual test started: Login Page
-[2026-02-05 10:43:54] [INFO] Visual test started: Login Page
-[2026-02-05 10:44:00] [INFO] Visual test started: Login Page
-[2026-02-05 10:46:58] [INFO] Visual test started: Login Page
-[2026-02-05 10:47:03] [INFO] Visual test started: Login Page
-[2026-02-05 10:50:28] [INFO] Visual test started: Login Page
-[2026-02-05 10:50:34] [INFO] Visual test started: Login Page
-[2026-02-05 10:50:59] [INFO] Visual test started: Login Page
-[2026-02-05 10:56:49] [INFO] Visual test started: Login Page
-[2026-02-05 10:59:07] [INFO] Visual test started: Login Page
-[2026-02-05 11:03:56] [INFO] Visual test started: Login Page
-[2026-02-05 15:29:55] [INFO] Visual test started: Login Page
-[2026-02-05 15:32:36] [INFO] Visual test started: Login Page
-[2026-02-05 15:33:52] [INFO] Visual test started: Login Page
-[2026-02-05 15:35:55] [INFO] Visual test started: Login Page
-[2026-02-05 15:37:55] [INFO] Visual test started: Login Page
-[2026-02-06 17:22:59] [INFO] Visual test started: Login Page
-[2026-02-06 17:24:19] [INFO] Visual test started: Login Page
-[2026-02-06 17:26:44] [INFO] Visual test started: Login Page
-[2026-02-06 18:16:05] [INFO] Visual test started: Login Page
-[2026-02-06 18:16:15] [INFO] Visual test started: Login Page
-[2026-02-06 18:16:28] [INFO] Visual test started: Login Page
-[2026-02-06 18:35:51] [INFO] Visual test started: Login Page
-[2026-02-06 18:35:58] [INFO] Visual test started: Login Page
-[2026-02-06 18:40:56] [INFO] Visual test started: Login Page
-[2026-02-06 18:45:44] [INFO] Visual test started: Login Page
-[2026-02-06 18:46:27] [INFO] Visual test started: Login Page
-[2026-02-06 23:51:42] [INFO] Visual test started: Login Page
-[2026-02-06 23:51:48] [INFO] Visual test started: Login Page
-[2026-02-07 18:51:19] [INFO] Visual test started: Login Page
-[2026-02-07 19:02:11] [INFO] Visual test started: Login Page
-[2026-02-07 19:03:51] [INFO] Visual test started: Login Page
-[2026-02-07 19:05:28] [INFO] Visual test started: Login Page
-[2026-02-07 19:07:46] [INFO] Visual test started: Login Page
-[2026-02-07 19:21:01] [INFO] Visual test started: Login Page
-[2026-02-07 19:22:46] [INFO] Visual test started: Login Page
-[2026-02-07 19:25:20] [INFO] Visual test started: Login Page
-[2026-02-07 19:25:48] [INFO] Visual test started: Login Page
-[2026-02-07 19:26:48] [INFO] Visual test started: Login Page
-[2026-02-07 19:27:54] [INFO] Visual test started: Login Page
-[2026-02-07 19:29:37] [INFO] Visual test started: Login Page
-[2026-02-07 19:37:31] [INFO] Visual test started: Login Page
-[2026-02-09 14:55:49] [INFO] Visual test started: Login Page
-[2026-02-09 14:55:57] [INFO] Visual test started: Login Page
-[2026-02-09 14:56:14] [INFO] Test Executed: Sauce Labs Backpack buying
-[2026-02-09 14:56:15] [INFO] Inventory page is opened
-[2026-02-09 14:56:15] [INFO] Sauce Labs Backpack is added to cart
-[2026-02-09 14:56:15] [INFO] Cart page is opened
-[2026-02-09 14:56:15] [INFO] Proceed to order page is opened
-[2026-02-09 14:56:15] [INFO] Data for fields is generated
-[2026-02-09 14:56:15] [INFO] First Name: Renee, Last Name: Lewis, Zip: 06314
-[2026-02-09 14:56:15] [INFO] Form for order is filled
-[2026-02-09 14:56:15] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-09 14:56:15] [INFO] Order is submitted succesfully
-[2026-02-09 14:56:15] [INFO] Test Sauce Labs Backpack buing is passed
-[2026-02-09 14:56:15] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
-[2026-02-09 14:56:15] [INFO] Images are mocked
-[2026-02-09 14:56:16] [INFO] Inventory page is opened
-[2026-02-09 14:56:16] [INFO] Images are Mocked
-[2026-02-09 14:56:16] [INFO] Test for broken images is passed
-[2026-02-09 14:56:19] [INFO] Visual test started: Login Page
-[2026-02-09 14:56:19] [INFO] Visual test passed
-[2026-02-09 14:56:19] [INFO] Test Executed: Sauce Labs Bike Light buying
-[2026-02-09 14:56:20] [INFO] Inventory page is opened
-[2026-02-09 14:56:20] [INFO] Sauce Labs Bike Light is added to cart
-[2026-02-09 14:56:20] [INFO] Cart page is opened
-[2026-02-09 14:56:20] [INFO] Proceed to order page is opened
-[2026-02-09 14:56:20] [INFO] Data for fields is generated
-[2026-02-09 14:56:20] [INFO] First Name: Lauren, Last Name: Spencer, Zip: 18460
-[2026-02-09 14:56:20] [INFO] Form for order is filled
-[2026-02-09 14:56:20] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-09 14:56:20] [INFO] Order is submitted succesfully
-[2026-02-09 14:56:20] [INFO] Test Sauce Labs Bike Light buing is passed
-[2026-02-09 14:56:54] [INFO] Visual test started: Login Page
-[2026-02-09 14:56:55] [INFO] Visual test passed
-[2026-02-09 15:17:24] [INFO] Test Executed: Sauce Labs Backpack buying
-[2026-02-09 15:17:25] [INFO] Inventory page is opened
-[2026-02-09 15:17:25] [INFO] Sauce Labs Backpack is added to cart
-[2026-02-09 15:17:25] [INFO] Cart page is opened
-[2026-02-09 15:17:25] [INFO] Proceed to order page is opened
-[2026-02-09 15:17:25] [INFO] Data for fields is generated
-[2026-02-09 15:17:25] [INFO] First Name: Lisa, Last Name: Butler, Zip: 13709
-[2026-02-09 15:17:25] [INFO] Form for order is filled
-[2026-02-09 15:17:25] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-09 15:17:25] [INFO] Order is submitted succesfully
-[2026-02-09 15:17:25] [INFO] Test Sauce Labs Backpack buing is passed
-[2026-02-09 15:17:25] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
-[2026-02-09 15:17:25] [INFO] Images are mocked
-[2026-02-09 15:17:25] [INFO] Inventory page is opened
-[2026-02-09 15:17:25] [INFO] Images are Mocked
-[2026-02-09 15:17:25] [INFO] Test for broken images is passed
-[2026-02-09 15:17:28] [INFO] Visual test started: Login Page
-[2026-02-09 15:17:29] [INFO] Visual test passed
-[2026-02-09 15:17:29] [INFO] Test Executed: Sauce Labs Bike Light buying
-[2026-02-09 15:17:30] [INFO] Inventory page is opened
-[2026-02-09 15:17:30] [INFO] Sauce Labs Bike Light is added to cart
-[2026-02-09 15:17:30] [INFO] Cart page is opened
-[2026-02-09 15:17:30] [INFO] Proceed to order page is opened
-[2026-02-09 15:17:30] [INFO] Data for fields is generated
-[2026-02-09 15:17:30] [INFO] First Name: Clinton, Last Name: Edwards, Zip: 83817
-[2026-02-09 15:17:30] [INFO] Form for order is filled
-[2026-02-09 15:17:30] [INFO] Proceeding with checkout. Checkout: Overview page is opened
-[2026-02-09 15:17:30] [INFO] Order is submitted succesfully
-[2026-02-09 15:17:30] [INFO] Test Sauce Labs Bike Light buing is passed
+[2026-02-09 17:38:45] [MainProcess] [INFO] Test Executed: Sauce Labs Backpack buying
+[2026-02-09 17:38:46] [MainProcess] [INFO] Inventory page is opened
+[2026-02-09 17:38:46] [MainProcess] [INFO] Sauce Labs Backpack is added to cart
+[2026-02-09 17:38:46] [MainProcess] [INFO] Cart page is opened
+[2026-02-09 17:38:46] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-09 17:38:46] [MainProcess] [INFO] Data for fields is generated
+[2026-02-09 17:38:46] [MainProcess] [INFO] First Name: Danielle, Last Name: Norris, Zip: 40647
+[2026-02-09 17:38:46] [MainProcess] [INFO] Form for order is filled
+[2026-02-09 17:38:46] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-09 17:38:46] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-09 17:38:46] [MainProcess] [INFO] Test Sauce Labs Backpack buying is passed
+[2026-02-09 17:38:46] [MainProcess] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
+[2026-02-09 17:38:46] [MainProcess] [INFO] Images are mocked
+[2026-02-09 17:38:47] [MainProcess] [INFO] Inventory page is opened
+[2026-02-09 17:38:47] [MainProcess] [INFO] Images are Mocked
+[2026-02-09 17:38:47] [MainProcess] [INFO] Test for broken images is passed
+[2026-02-09 17:38:50] [MainProcess] [INFO] Visual test started: Login Page
+[2026-02-09 17:38:51] [MainProcess] [INFO] Visual test passed
+[2026-02-09 17:38:51] [MainProcess] [INFO] Visual test started: Error banner on Login Page
+[2026-02-09 17:38:52] [MainProcess] [INFO] Test Executed: Sauce Labs Bike Light buying
+[2026-02-09 17:38:53] [MainProcess] [INFO] Inventory page is opened
+[2026-02-09 17:38:53] [MainProcess] [INFO] Sauce Labs Bike Light is added to cart
+[2026-02-09 17:38:53] [MainProcess] [INFO] Cart page is opened
+[2026-02-09 17:38:53] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-09 17:38:53] [MainProcess] [INFO] Data for fields is generated
+[2026-02-09 17:38:53] [MainProcess] [INFO] First Name: John, Last Name: Williams, Zip: 07629
+[2026-02-09 17:38:53] [MainProcess] [INFO] Form for order is filled
+[2026-02-09 17:38:53] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-09 17:38:53] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-09 17:38:53] [MainProcess] [INFO] Test Sauce Labs Bike Light buying is passed
+[2026-02-10 11:16:06] [MainProcess] [INFO] Test Executed: Sauce Labs Backpack buying
+[2026-02-10 11:16:06] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:16:06] [MainProcess] [INFO] Sauce Labs Backpack is added to cart
+[2026-02-10 11:16:06] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:16:06] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:16:06] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:16:06] [MainProcess] [INFO] First Name: Caroline, Last Name: Rodriguez, Zip: 01161
+[2026-02-10 11:16:06] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:16:06] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:16:06] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:16:06] [MainProcess] [INFO] Test Sauce Labs Backpack buying is passed
+[2026-02-10 11:16:07] [MainProcess] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
+[2026-02-10 11:16:07] [MainProcess] [INFO] Images are mocked
+[2026-02-10 11:16:07] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:16:07] [MainProcess] [INFO] Images are Mocked
+[2026-02-10 11:16:07] [MainProcess] [INFO] Test for broken images is passed
+[2026-02-10 11:16:08] [MainProcess] [INFO] Visual test started: Login Page
+[2026-02-10 11:16:09] [MainProcess] [INFO] Visual test passed
+[2026-02-10 11:16:09] [MainProcess] [INFO] Visual test started: Error banner on Login Page
+[2026-02-10 11:16:10] [MainProcess] [INFO] Test Executed: Sauce Labs Bike Light buying
+[2026-02-10 11:16:10] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:16:10] [MainProcess] [INFO] Sauce Labs Bike Light is added to cart
+[2026-02-10 11:16:10] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:16:10] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:16:10] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:16:10] [MainProcess] [INFO] First Name: Robert, Last Name: Garcia, Zip: 57341
+[2026-02-10 11:16:10] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:16:11] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:16:11] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:16:11] [MainProcess] [INFO] Test Sauce Labs Bike Light buying is passed
+[2026-02-10 11:17:46] [MainProcess] [INFO] Test Executed: Sauce Labs Backpack buying
+[2026-02-10 11:17:46] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:17:46] [MainProcess] [INFO] Sauce Labs Backpack is added to cart
+[2026-02-10 11:17:46] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:17:46] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:17:46] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:17:46] [MainProcess] [INFO] First Name: Charles, Last Name: Hernandez, Zip: 39955
+[2026-02-10 11:17:46] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:17:46] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:17:46] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:17:46] [MainProcess] [INFO] Test Sauce Labs Backpack buying is passed
+[2026-02-10 11:17:46] [MainProcess] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
+[2026-02-10 11:17:46] [MainProcess] [INFO] Images are mocked
+[2026-02-10 11:17:47] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:17:47] [MainProcess] [INFO] Images are Mocked
+[2026-02-10 11:17:47] [MainProcess] [INFO] Test for broken images is passed
+[2026-02-10 11:17:48] [MainProcess] [INFO] Visual test started: Login Page
+[2026-02-10 11:17:49] [MainProcess] [INFO] Visual test passed
+[2026-02-10 11:17:49] [MainProcess] [INFO] Visual test started: Error banner on Login Page
+[2026-02-10 11:17:51] [MainProcess] [INFO] Test Executed: Sauce Labs Bike Light buying
+[2026-02-10 11:17:51] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:17:51] [MainProcess] [INFO] Sauce Labs Bike Light is added to cart
+[2026-02-10 11:17:51] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:17:51] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:17:51] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:17:51] [MainProcess] [INFO] First Name: Andrew, Last Name: Brown, Zip: 59990
+[2026-02-10 11:17:51] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:17:51] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:17:51] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:17:51] [MainProcess] [INFO] Test Sauce Labs Bike Light buying is passed
+[2026-02-10 11:39:19] [MainProcess] [INFO] Test Executed: Sauce Labs Backpack buying
+[2026-02-10 11:39:19] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:39:19] [MainProcess] [INFO] Sauce Labs Backpack is added to cart
+[2026-02-10 11:39:19] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:39:19] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:39:20] [MainProcess] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
+[2026-02-10 11:39:20] [MainProcess] [INFO] Images are mocked
+[2026-02-10 11:39:20] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:39:23] [MainProcess] [INFO] Visual test started: Login Page
+[2026-02-10 11:39:24] [MainProcess] [INFO] Visual test passed
+[2026-02-10 11:39:24] [MainProcess] [INFO] Visual test started: Error banner on Login Page
+[2026-02-10 11:39:25] [MainProcess] [INFO] Test Executed: Sauce Labs Bike Light buying
+[2026-02-10 11:39:25] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:39:25] [MainProcess] [INFO] Sauce Labs Bike Light is added to cart
+[2026-02-10 11:39:25] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:39:25] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:40:31] [MainProcess] [INFO] Test Executed: Sauce Labs Backpack buying
+[2026-02-10 11:40:32] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:40:32] [MainProcess] [INFO] Sauce Labs Backpack is added to cart
+[2026-02-10 11:40:32] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:40:32] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:40:32] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:40:32] [MainProcess] [INFO] First Name: Abigail, Last Name: Baxter, Zip: 75626
+[2026-02-10 11:40:32] [MainProcess] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
+[2026-02-10 11:40:33] [MainProcess] [INFO] Images are mocked
+[2026-02-10 11:40:33] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:40:36] [MainProcess] [INFO] Visual test started: Login Page
+[2026-02-10 11:40:37] [MainProcess] [INFO] Visual test passed
+[2026-02-10 11:40:37] [MainProcess] [INFO] Visual test started: Error banner on Login Page
+[2026-02-10 11:40:38] [MainProcess] [INFO] Test Executed: Sauce Labs Bike Light buying
+[2026-02-10 11:40:39] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:40:39] [MainProcess] [INFO] Sauce Labs Bike Light is added to cart
+[2026-02-10 11:40:39] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:40:39] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:40:39] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:40:39] [MainProcess] [INFO] First Name: Jennifer, Last Name: Lee, Zip: 32578
+[2026-02-10 11:41:23] [MainProcess] [INFO] Test Executed: Sauce Labs Backpack buying
+[2026-02-10 11:41:24] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:41:24] [MainProcess] [INFO] Sauce Labs Backpack is added to cart
+[2026-02-10 11:41:24] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:41:24] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:41:24] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:41:24] [MainProcess] [INFO] First Name: Laura, Last Name: Doyle, Zip: 11768
+[2026-02-10 11:41:24] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:41:24] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:41:24] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:41:24] [MainProcess] [INFO] Test Sauce Labs Backpack buying is passed
+[2026-02-10 11:41:24] [MainProcess] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
+[2026-02-10 11:41:25] [MainProcess] [INFO] Images are mocked
+[2026-02-10 11:41:25] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:41:28] [MainProcess] [INFO] Visual test started: Login Page
+[2026-02-10 11:41:29] [MainProcess] [INFO] Visual test passed
+[2026-02-10 11:41:29] [MainProcess] [INFO] Visual test started: Error banner on Login Page
+[2026-02-10 11:41:30] [MainProcess] [INFO] Test Executed: Sauce Labs Bike Light buying
+[2026-02-10 11:41:31] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:41:31] [MainProcess] [INFO] Sauce Labs Bike Light is added to cart
+[2026-02-10 11:41:31] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:41:31] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:41:31] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:41:31] [MainProcess] [INFO] First Name: Lisa, Last Name: Estrada, Zip: 82733
+[2026-02-10 11:41:31] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:41:31] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:41:31] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:41:31] [MainProcess] [INFO] Test Sauce Labs Bike Light buying is passed
+[2026-02-10 11:43:16] [MainProcess] [INFO] Test Executed: Sauce Labs Backpack buying
+[2026-02-10 11:43:16] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:43:16] [MainProcess] [INFO] Sauce Labs Backpack is added to cart
+[2026-02-10 11:43:17] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:43:17] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:43:17] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:43:17] [MainProcess] [INFO] First Name: Katherine, Last Name: Miller, Zip: 36821
+[2026-02-10 11:43:17] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:43:17] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:43:17] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:43:17] [MainProcess] [INFO] Test Sauce Labs Backpack buying is passed
+[2026-02-10 11:43:17] [MainProcess] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
+[2026-02-10 11:43:17] [MainProcess] [INFO] Images are mocked
+[2026-02-10 11:43:17] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:43:17] [MainProcess] [INFO] Images are Mocked
+[2026-02-10 11:43:17] [MainProcess] [INFO] Test for broken images is passed
+[2026-02-10 11:43:20] [MainProcess] [INFO] Visual test started: Login Page
+[2026-02-10 11:43:21] [MainProcess] [INFO] Visual test passed
+[2026-02-10 11:43:21] [MainProcess] [INFO] Visual test started: Error banner on Login Page
+[2026-02-10 11:43:23] [MainProcess] [INFO] Test Executed: Sauce Labs Bike Light buying
+[2026-02-10 11:43:23] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:43:23] [MainProcess] [INFO] Sauce Labs Bike Light is added to cart
+[2026-02-10 11:43:23] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:43:24] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:43:24] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:43:24] [MainProcess] [INFO] First Name: Karen, Last Name: Thomas, Zip: 22074
+[2026-02-10 11:43:24] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:43:24] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:43:24] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:43:24] [MainProcess] [INFO] Test Sauce Labs Bike Light buying is passed
+[2026-02-10 11:50:35] [MainProcess] [INFO] Test Executed: Sauce Labs Backpack buying
+[2026-02-10 11:50:36] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:50:36] [MainProcess] [INFO] Sauce Labs Backpack is added to cart
+[2026-02-10 11:50:36] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:50:36] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:50:36] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:50:36] [MainProcess] [INFO] First Name: Rachel, Last Name: Johnson, Zip: 97876
+[2026-02-10 11:50:36] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:50:36] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:50:36] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:50:36] [MainProcess] [INFO] Test Sauce Labs Backpack buying is passed
+[2026-02-10 11:50:36] [MainProcess] [INFO] Test execution: displaying placeholder for broken images (MOCKED)
+[2026-02-10 11:50:37] [MainProcess] [INFO] Blocking image request: https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+[2026-02-10 11:50:37] [MainProcess] [INFO] Blocking image request: https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+[2026-02-10 11:50:37] [MainProcess] [INFO] Blocking image request: https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+[2026-02-10 11:50:37] [MainProcess] [INFO] Blocking image request: https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+[2026-02-10 11:50:37] [MainProcess] [INFO] Blocking image request: https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+[2026-02-10 11:50:37] [MainProcess] [INFO] Blocking image request: https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
+[2026-02-10 11:50:37] [MainProcess] [INFO] Images are mocked
+[2026-02-10 11:50:37] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:50:37] [MainProcess] [INFO] Test for broken images is passed
+[2026-02-10 11:50:40] [MainProcess] [INFO] Visual test started: Login Page
+[2026-02-10 11:50:41] [MainProcess] [INFO] Visual test passed
+[2026-02-10 11:50:41] [MainProcess] [INFO] Visual test started: Error banner on Login Page
+[2026-02-10 11:50:42] [MainProcess] [INFO] Test Executed: Sauce Labs Bike Light buying
+[2026-02-10 11:50:42] [MainProcess] [INFO] Inventory page is opened
+[2026-02-10 11:50:42] [MainProcess] [INFO] Sauce Labs Bike Light is added to cart
+[2026-02-10 11:50:43] [MainProcess] [INFO] Cart page is opened
+[2026-02-10 11:50:43] [MainProcess] [INFO] Proceed to order page is opened
+[2026-02-10 11:50:43] [MainProcess] [INFO] Data for fields is generated
+[2026-02-10 11:50:43] [MainProcess] [INFO] First Name: Roger, Last Name: Moore, Zip: 99099
+[2026-02-10 11:50:43] [MainProcess] [INFO] Form for order is filled
+[2026-02-10 11:50:43] [MainProcess] [INFO] Proceeding with checkout. Checkout: Overview page is opened
+[2026-02-10 11:50:43] [MainProcess] [INFO] Order is submitted successfully
+[2026-02-10 11:50:43] [MainProcess] [INFO] Test Sauce Labs Bike Light buying is passed

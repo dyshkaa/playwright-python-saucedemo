@@ -11,13 +11,19 @@ on:
 jobs:
   test:
     runs-on: windows-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, firefox, webkit]
+
     steps:
       - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.14'
 
       - name: Install dependencies
         run: |
@@ -25,18 +31,35 @@ jobs:
           pip install -r requirements.txt
 
       - name: Install Playwright browsers
-        run: playwright install --with-deps chromium
+        run: playwright install --with-deps
 
       - name: Run tests
         env:
             USER_LOGIN: ${{ secrets.USER_LOGIN }}
             SECRET_PASSWORD: ${{ secrets.SECRET_PASSWORD }}
-        run: pytest -n 3 --base-url https://www.saucedemo.com/ --html=report.html
+        continue-on-error: true
+        run: pytest -n 3 --browser ${{ matrix.browser }} --base-url https://www.saucedemo.com/ --alluredir=allure-results
 
-      - name: Upload HTML Report
+      - name: Get Allure history
+        uses: actions/checkout@v4
         if: always()
-        uses: actions/upload-artifact@v4
+        continue-on-error: true
         with:
-          name: test-report
-          path: report.html
-          retention-days: 30
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history

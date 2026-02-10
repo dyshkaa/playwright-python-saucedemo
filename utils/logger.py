@@ -13,7 +13,7 @@ def setup_logger(name="test_logger", log_file="test_run.log"):
     if logger.hasHandlers():
         logger.handlers.clear()
 
-    formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    formatter = logging.Formatter('[%(asctime)s] [%(processName)s] [%(levelname)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
     file_path = os.path.join(log_dir, log_file)
     file_handler = logging.FileHandler(file_path, encoding='utf-8')

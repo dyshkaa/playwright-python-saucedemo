@@ -34,7 +34,7 @@ def fake():
 ##login
 @pytest.fixture
 def login_page (page):
-    return LoginPage()
+    return LoginPage(page)
 
 ##session fixture
 @pytest.fixture(scope="session")
@@ -43,13 +43,13 @@ def user_session(browser_type: BrowserType, browser_type_launch_args, base_url):
     context = browser.new_context(base_url=base_url)
     page = context.new_page()
 
-    login_p = LoginPage()
-    login_p.navigate(page)
+    login_p = LoginPage(page)
+    login_p.navigate()
 
     username = os.getenv("USER_LOGIN")
     password = os.getenv("SECRET_PASSWORD")
     
-    login_p.login(page, username, password)
+    login_p.login(username, password)
     
     page.wait_for_url("**/inventory.html")
 

@@ -1,5 +1,5 @@
 class CheckoutPage:
-    def __init__(self):
+    def __init__(self, page):
         self.firstName = '[data-test="firstName"]'
         self.lastName = '[data-test="lastName"]'
         self.zip = '[data-test="postalCode"]'
@@ -8,17 +8,18 @@ class CheckoutPage:
         self.item_name_overview = '[data-test="inventory-item-name"]'
         self.finish_btn = '[data-test="finish"]'
         self.title_final = '.complete-header'
+        self.page = page
 
-    def navigate(self, page):
-        page.goto("/checkout-step-one.html")
+    def navigate(self):
+        self.page.goto("/checkout-step-one.html")
         
-    def press_cont_btn(self, page):
-        page.locator(self.ctn_btn).click()
+    def press_cont_btn(self):
+        self.page.locator(self.ctn_btn).click()
 
-    def fill_information(self, firstN, lastN, postal, page):
-        page.locator(self.firstName).fill(firstN)
-        page.locator(self.lastName).fill(lastN)
-        page.locator(self.zip).fill(postal)
+    def fill_information(self, firstname, lastname, postal):
+        self.page.locator(self.firstName).fill(firstname)
+        self.page.locator(self.lastName).fill(lastname)
+        self.page.locator(self.zip).fill(postal)
 
-    def press_finish_btn(self, page):
-        page.locator(self.finish_btn).click()
+    def press_finish_btn(self,):
+        self.page.locator(self.finish_btn).click()
