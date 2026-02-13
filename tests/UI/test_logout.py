@@ -1,9 +1,13 @@
+import allure
 import pytest
 import os
 
 from playwright.sync_api import expect
 from pages.inventory_page import LeftSideMenu
 
+@allure.feature("Authorization")
+@allure.story("Logout")
+@pytest.mark.UI_login
 def test_login_and_logout(page, login_page, base_url):
     login_page.navigate()
 

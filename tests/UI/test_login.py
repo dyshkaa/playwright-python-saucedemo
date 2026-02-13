@@ -1,3 +1,4 @@
+import allure
 import pytest
 import os
 
@@ -13,12 +14,18 @@ def browser_context_args(base_url):
         "base_url": base_url,
     }
 
+@allure.feature("Authorization")
+@allure.story("Login with valid credentials")
+@pytest.mark.UI_login
 def test_guest_can_login(page, login_page):
     login_page.navigate()
 
     login_page.login(os.getenv("USER_LOGIN"), os.getenv("SECRET_PASSWORD"))
     expect(page.locator('.title')).to_contain_text('Products')
 
+@allure.feature("Authorization")
+@allure.story("Login with invalid credentials")
+@pytest.mark.UI_login
 @pytest.mark.parametrize("password", ["123", "password", "qwerty"])
 def test_login_with_wrong_password(page, login_page, password):
     login_page.navigate()

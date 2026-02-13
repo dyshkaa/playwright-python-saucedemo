@@ -1,3 +1,4 @@
+import allure
 import pytest
 import os
 
@@ -5,6 +6,9 @@ from playwright.sync_api import expect
 from pages.inventory_page import InventoryPage
 from pages.cart_page import CartPage
 
+@allure.feature("Basic Feature")
+@allure.story("API add product to cart scenario")
+@pytest.mark.API
 def test_add_item_to_cart_via_js(page):
     inventory_page = InventoryPage(page)
     cart_page = CartPage(page)

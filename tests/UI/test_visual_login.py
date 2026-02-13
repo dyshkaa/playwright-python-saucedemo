@@ -1,3 +1,4 @@
+import allure
 import pytest
 import os
 from playwright.sync_api import expect
@@ -16,6 +17,9 @@ def browser_context_args(base_url):
         "base_url": base_url,
     }
 
+@allure.feature("Pixel Perfect tests")
+@allure.story("Check login page design")
+@pytest.mark.Pixel_perf
 def test_login_page_visual(page, base_url, assert_snapshot):
     logger.info("Visual test started: Login Page")
     
@@ -26,6 +30,9 @@ def test_login_page_visual(page, base_url, assert_snapshot):
 
     logger.info("Visual test passed")
 
+@allure.feature("Pixel Perfect tests")
+@allure.story("Check login page on error design")
+@pytest.mark.Pixel_perf
 def test_login_page_on_error(page, base_url, assert_snapshot):
     logger.info("Visual test started: Error banner on Login Page")
     login_page = LoginPage(page)

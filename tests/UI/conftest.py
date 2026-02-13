@@ -2,6 +2,7 @@ import asyncio
 import pytest
 import os
 import base64
+from pathlib import Path
 import allure
 from faker import Faker
 from playwright.sync_api import BrowserType
@@ -9,6 +10,8 @@ from pages.login_page import LoginPage
 
 from dotenv import load_dotenv
 load_dotenv()
+
+PROJECT_ROOT = Path(__file__).parent.parent.parent
 
 ##allure
 @pytest.hookimpl(hookwrapper=True)
@@ -39,6 +42,8 @@ def login_page (page):
 ##session fixture
 @pytest.fixture(scope="session")
 def user_session(browser_type: BrowserType, browser_type_launch_args, base_url):
+    state_path = PROJECT_ROOT / "state.json"
+
     browser = browser_type.launch(**browser_type_launch_args)
     context = browser.new_context(base_url=base_url)
     page = context.new_page()
@@ -53,15 +58,15 @@ def user_session(browser_type: BrowserType, browser_type_launch_args, base_url):
     
     page.wait_for_url("**/inventory.html")
 
-    context.storage_state(path="state.json")
+    context.storage_state(path=str(state_path))
     browser.close()
-    
-    return "state.json"
+
+    return str(state_path)
 
 ##give tokens
 @pytest.fixture(scope="function")
 def browser_context_args(user_session, base_url):
     return {
-        "storage_state": "state.json",
+        "storage_state": user_session,
         "base_url": base_url
     }

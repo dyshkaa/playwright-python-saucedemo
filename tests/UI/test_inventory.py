@@ -1,4 +1,5 @@
 import pytest
+import allure
 import os
 
 from playwright.sync_api import expect
@@ -14,6 +15,9 @@ logger = setup_logger()
 products = load_products()
 product_name = [item["name"] for item in products]
 
+@allure.feature("Basic Feature")
+@allure.story("User buys any product")
+@pytest.mark.UI_other
 @pytest.mark.parametrize("item_name_param", product_name)
 def test_buy_any_item (page, item_name_param, fake):
     logger.info(f"Test Executed: {item_name_param} buying")
@@ -55,7 +59,9 @@ def test_buy_any_item (page, item_name_param, fake):
     logger.info("Order is submitted successfully")
     logger.info(f"Test {item_name_param} buying is passed")
 
-
+@allure.feature("Error Handling cases")
+@allure.story("Error handling for broken images")
+@pytest.mark.UI_other
 def test_broken_images(page):
     logger.info("Test execution: displaying placeholder for broken images (MOCKED)")
 
