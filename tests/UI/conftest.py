@@ -49,7 +49,7 @@ def user_session(browser_type: BrowserType, browser_type_launch_args, base_url):
     page = context.new_page()
 
     login_p = LoginPage(page)
-    login_p.navigate()
+    login_p.open()
 
     username = os.getenv("USER_LOGIN")
     password = os.getenv("SECRET_PASSWORD")

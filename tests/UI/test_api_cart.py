@@ -1,6 +1,5 @@
 import allure
 import pytest
-import os
 
 from playwright.sync_api import expect
 from pages.inventory_page import InventoryPage
@@ -13,13 +12,13 @@ def test_add_item_to_cart_via_js(page):
     inventory_page = InventoryPage(page)
     cart_page = CartPage(page)
 
-    inventory_page.navigate()
+    inventory_page.open()
 
-    page.evaluate("localStorage.setItem('cart-contents', '[4]')")
-    page.reload()
+    inventory_page.add_product_via_js()
+    inventory_page.refresh_page()
 
-    expect(page.locator(inventory_page.cart)).to_have_text("1")
+    expect(inventory_page.link_counter).to_have_text("1")
 
     inventory_page.go_to_cart()
 
-    expect(page.locator(cart_page.item_name_cart)).to_have_text("Sauce Labs Backpack")
+    expect(cart_page.product_name).to_have_text("Sauce Labs Backpack")

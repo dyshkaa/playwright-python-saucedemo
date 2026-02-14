@@ -1,11 +1,19 @@
-class CartPage:
-    def __init__(self, page):
-        self.item_name_cart = '[data-test="inventory-item-name"]'
-        self.checkout_btn = '[data-test="checkout"]'
-        self.page = page
+from pages.base_page import BasePage
 
-    def navigate(self):
-        self.page.goto("/cart.html")
-    
+class CartPage(BasePage):
+    URL = "/cart.html"
+    PRODUCT_NAME_IN_CART = '[data-test="inventory-item-name"]'
+    CHECKOUT_BUTTON = '[data-test="checkout"]'
+
+    def __init__(self, page):
+        super().__init__(page)
+
+    def open(self):
+        super().open_url(self.URL)
+
     def press_checkout_btn (self):
-        self.page.locator(self.checkout_btn).click()
+        self.click_element(self.CHECKOUT_BUTTON)
+
+    @property
+    def product_name(self):
+        return self.page.locator(self.PRODUCT_NAME_IN_CART)
